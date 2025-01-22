@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/*Estilos para o títula h1*/
+
+h1 {
+    font-size: 4em; /* Tamanho inicial da fonte */
+    text-align: center; /* Centraliza o texto */
+    color: rgb(65, 0, 91); /* Cor inicial */
+    animation: mudarCorETamanho 10s infinite; /* Aplica a animação */
+}
+/* Definindo a animação */
+@keyframes mudarCorETamanho {
+    0% /*Define o início da animação */
+    {
+        color: rgb(236, 9, 103); 
+        font-size: 5em;
+    }
+    50% /*No meio da animação, a cor do texto muda para vermelho e o tamanho aumenta para 4em.*/
+     {
+        color: rgb(29, 11, 227); /* Cor no meio da animação */
+        font-size: 4em;
+    }
+    100% /* No final, o texto fica verde e o tamanho retorna para 3em */
+    {
+        color: rgb(104, 5, 5); /* Cor no final da animação */
+        font-size: 3em;
+    }  
+}
+body {
+    background-color: rgb(0, 0, 0);
+}
+
