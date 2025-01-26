@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+/* Define o estilo global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(270deg, #7c4dd2, #4953e0, #835deb);
+    background-size: 400% 400%;
+    animation: gradientAnimation 5s ease infinite;
+    color: rgb(0, 0, 0);
+    
+}
+
+/* Animação do fundo */
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+
+
