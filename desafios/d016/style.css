@@ -61,31 +61,40 @@ section > p {
 
 }
 
-section.img {
-    background-image: url();
-}
 
 p.linha1 {
-    animation: fadeln 1s ease-in-out forwards;
+    animation: fadeln 1s ease-in-out forwards; 
+    display: inline-block;  
+    padding: 10px;
+    background-color: rgba(14, 13, 14, 0.16);
+    
 }
 
 p.linha2 {
     animation: fadeln 2s ease-in-out forwards;
+    
 
 }
 
 p.linha3 {
     animation: fadeln 3s ease-in-out forwards;
+    display: inline-block;
+    padding: 10px;
+    background-color: rgba(14, 13, 14, 0.16);
 
 }
 
 p.linha4 {
     animation: fadeln 4s ease-in-out forwards;
+    
 
 }
 
-p.Linha5 {
+p.linha5 {
     animation: fadeln 5s ease-in-out forwards;
+    display: inline-block;
+    padding: 10px;
+    background-color: rgba(14, 13, 14, 0.16);
 
 }
 
@@ -96,6 +105,9 @@ p.linha6 {
 
 p.linha7 {
     animation: fadeln 7s ease-in-out forwards;
+    display: inline-block;
+    padding: 10px;
+    background-color: rgba(14, 13, 14, 0.16);
 
 }
 
